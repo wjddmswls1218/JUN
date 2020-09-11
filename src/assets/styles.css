@@ -1,0 +1,58 @@
+.app {
+    width: 100%;
+    height: 100vh;
+    background-color: pink;
+  
+    display: flex;
+    flex-direction: column;
+  }
+  .app .app__col1 {
+    width: 100%;
+    height: 10%;
+    background-color: black;
+  }
+  .app .app__col2 {
+    width: 100%;
+    height: 90%;
+    background-color: blue;
+  
+    display: flex;
+    flex-direction: row;
+  }
+  .app .app__col2 .app__col2__col1 {
+    width: 50%;
+    height: 100%;
+    background-color: chartreuses;
+  
+    display: flex;
+    flex-direction: column;
+  }
+  .app .app__col2 .app__col2__col1 .app__col2__col1__col1 {
+    width: 100%;
+    height: 50%;
+    background-color: darkblue;
+  }
+  .app .app__col2 .app__col2__col1 .app__col2__col1__col2 {
+    width: 100%;
+    height: 50%;
+    background-color: saddlebrown;
+  }
+  
+  .app .app__col2 .app__col2__col2 {
+    width: 50%;
+    height: 100%;
+    background-color: wheat;
+  
+    display: flex;
+    flex-direction: row;
+  }
+  .app .app__col2 .app__col2__col2 .app__col2__col2__col1 {
+    width: 50%;
+    height: 100%;
+    background-color: greenyellow;
+  }
+  .app .app__col2 .app__col2__col2 .app__col2__col2__col2 {
+    width: 50%;
+    height: 100%;
+    background-color: rebeccapurple;
+  }
